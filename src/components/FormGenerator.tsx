@@ -42,8 +42,8 @@ export const FormGenerator: FC<FormGeneratorProps> = ({
         formDataList,
       })
 
-      setFormDataList((prevValues: any) => {
-        return prevValues.map((v: any) => {
+      setFormDataList((prevValues) => {
+        return prevValues.map((v) => {
           if (v.id === id) {
             return {
               ...v,
@@ -87,7 +87,7 @@ export const FormGenerator: FC<FormGeneratorProps> = ({
       })
 
       setFormDataList((prevValues) => {
-        return prevValues.map((v: any) => {
+        return prevValues.map((v) => {
           if (v.id === id && !v.isTouched) {
             return validatedField
           }
