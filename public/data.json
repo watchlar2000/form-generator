@@ -1,0 +1,41 @@
+[
+  {
+    "type": "text",
+    "default_value": "John Doe",
+    "value": "John Doe",
+    "validation": "^[A-z]",
+    "min_value": null,
+    "max_value": null,
+    "options": null
+  },
+  {
+    "type": "longtext",
+    "label": "Description",
+    "default_value": "This is a default description.",
+    "value": "This is a longer text description about the user or something else.",
+    "validation": null,
+    "min_value": null,
+    "max_value": null,
+    "options": null
+  },
+  {
+    "type": "dropdown",
+    "label": "Gender",
+    "default_value": "",
+    "value": "Male",
+    "validation": null,
+    "min_value": null,
+    "max_value": null,
+    "options": ["Male", "Female", "Other"]
+  },
+  {
+    "type": "number",
+    "label": "Age",
+    "default_value": 18,
+    "value": 25,
+    "validation": null,
+    "min_value": 18,
+    "max_value": 100,
+    "options": null
+  }
+]
